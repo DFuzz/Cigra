@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <script src="https://kit.fontawesome.com/dd29884c2d.js" crossorigin="anonymous"></script>
+    <title>Cigra Jewelry</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Cigra Jewelry</h1>
+
+        <nav>
+            <div>
+                <a href="Index.html">Inicio</a>
+            </div>
+            <div>
+                <a href="Sucursales.html">Sucursales</a>
+            </div>
+            <a href="About.html">Sobre Nosotros</a>
+            </div>
+            <div>
+                <a href="Contactanos.html">Contactanos</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="contacto">
+
+        <h2>Contactanos</h2>
+
+        <form action="" name="formulario" method="get">
+
+            <table>
+                <tr>
+                    <td>Nombre y Apellido:</td>
+                    <td><input type="text" name="nombre" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento:</td>
+                    <td><input type="date" name="fecha" id="fecha"></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td> <input type="radio" name="sexo" id="hombre" value="Hombre"> Hombre
+                        <input type="radio" name="sexo" id="mujer" value="Mujer"> Mujer
+                    </td>
+                </tr>
+                <tr>
+                    <td>Provincia:</td>
+                    <td><select name="prov" id="prov">
+                            <option value="" disabled selected>Elegí una provincia</option>
+                            <option value="caba">C.A.B.A.</option>
+                            <option value="ba">Buenos Aires</option>
+                            <option value="ca">Catamarca</option>
+                            <option value="cha">Chaco</option>
+                            <option value="chu">Chubut</option>
+                            <option value="cord">Córdoba</option>
+                            <option value="corr">Corrientes</option>
+                            <option value="en">Entre Ríos</option>
+                            <option value="fo">Formosa</option>
+                            <option value="ju">Jujuy</option>
+                            <option value="pam">La Pampa</option>
+                            <option value="rio">La Rioja</option>
+                            <option value="men">Mendoza</option>
+                            <option value="mis">Misiones</option>
+                            <option value="neu">Neuquén</option>
+                            <option value="rio">Río Negro</option>
+                            <option value="">Salta</option>
+                            <option value="sal">San Juan</option>
+                            <option value="sl">San Luis</option>
+                            <option value="sc">Santa Cruz</option>
+                            <option value="sf">Santa Fe</option>
+                            <option value="se">Santiago del Estero</option>
+                            <option value="tf">Tierra del Fuego</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="correo" id="correo"></td>
+                </tr>
+                <tr>
+                    <td>Teléfono:</td>
+                    <td><input type="tel" name="phone" id="phone"></td>
+                </tr>
+            </table>
+
+            <input type="submit" id="btn" name="btn" value="Enviar">
+
+        </form>
+
+
+
+
+    </section>
+
+    <footer>
+
+        <div>
+            <i class="fa-solid fa-truck-fast"></i>
+            <a href="https://www.instagram.com">Seguinos en Instagram</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-credit-card"></i>
+            <span>Hasta 3 cuotas sin interés</span>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Contactanos por whatsapp</span>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
